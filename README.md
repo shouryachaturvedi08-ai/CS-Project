@@ -8,7 +8,7 @@ consequences and practical advice, for one person or a whole group in a single s
 
 ## Overview
 
-Type in a name, age, gender, weight (kg or lb) and height (cm or inches), and the
+Type a name, age, gender, weight (kg or lb) and height (cm or inches), and the
 program calculates BMI, tells you which of five health categories you fall into, and
 prints tailored consequences and cures for that category — with different advice for
 men and women, since the same BMI carries different risks across genders. Keep adding
@@ -40,10 +40,7 @@ everyone entered in that session.
 | Standard library only | No external/third-party packages required to run   |
 | Git & GitHub       | Version control and submission                        |
 
-> `minecolor.py` is **not** a package from PyPI — it's a small local helper module
-> (included right here in the repository) that defines ANSI escape-code constants
-> such as `RED`, `GREEN`, `CYAN`, `BOLD`, and `RESET`. It must sit in the same folder
-> as `sc_bmi_calculator.py` for the import to succeed.
+
 
 ## Project Structure
 
@@ -111,7 +108,11 @@ The screenshot below is a genuine terminal session — two users (Aarav, a man a
 ending with the consolidated summary table. Both fall into the **Healthy Weight**
 category, shown in green throughout.
 
-![BMI Calculator terminal session — individual results and final summary table](assets/bmi_calculator_screenshot.png)
+<img width="1557" height="936" alt="Screenshot Output" src="https://github.com/user-attachments/assets/a7dd1ee3-509a-44cc-9865-4209127c5a86" />
+<img width="1562" height="516" alt="Screenshot Output 2" src="https://github.com/user-attachments/assets/ff37afca-cf4e-450e-b73a-584465075734" />
+
+
+
 
 ## Notes on This Implementation
 
