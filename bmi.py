@@ -1,0 +1,3 @@
+from minecolor import RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, BLACK, BOLD, UNDERLINE, RESET
+
+print(RED + "Hello" + RESET)
